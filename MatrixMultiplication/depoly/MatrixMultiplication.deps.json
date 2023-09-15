@@ -1,0 +1,92 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "MatrixMultiplication/1.0.0": {
+        "dependencies": {
+          "Flurl": "3.0.7",
+          "Flurl.Http": "4.0.0-pre3",
+          "MathNet.Numerics": "5.0.0",
+          "Matrixden.SAK.Extensions": "3.3.2307.272"
+        },
+        "runtime": {
+          "MatrixMultiplication.dll": {}
+        }
+      },
+      "Flurl/3.0.7": {
+        "runtime": {
+          "lib/netstandard2.0/Flurl.dll": {
+            "assemblyVersion": "3.0.7.0",
+            "fileVersion": "3.0.7.0"
+          }
+        }
+      },
+      "Flurl.Http/4.0.0-pre3": {
+        "dependencies": {
+          "Flurl": "3.0.7"
+        },
+        "runtime": {
+          "lib/net6.0/Flurl.Http.dll": {
+            "assemblyVersion": "4.0.0.0",
+            "fileVersion": "4.0.0.0"
+          }
+        }
+      },
+      "MathNet.Numerics/5.0.0": {
+        "runtime": {
+          "lib/net6.0/MathNet.Numerics.dll": {
+            "assemblyVersion": "5.0.0.0",
+            "fileVersion": "5.0.0.0"
+          }
+        }
+      },
+      "Matrixden.SAK.Extensions/3.3.2307.272": {
+        "runtime": {
+          "lib/net40/Matrixden.SAK.Extensions.dll": {
+            "assemblyVersion": "3.3.2307.272",
+            "fileVersion": "3.3.2307.272"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "MatrixMultiplication/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Flurl/3.0.7": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-W3zHc8m6/yqOAedHwpFQv5VT8t0W/jkS3AVlv1Tj520KDNjUa31at0zMc3XYJy8f9qdOmUcvSUarf6G2nK1ZIg==",
+      "path": "flurl/3.0.7",
+      "hashPath": "flurl.3.0.7.nupkg.sha512"
+    },
+    "Flurl.Http/4.0.0-pre3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-2N01ftKNnl5dhPvEYITn+DhrPrpxL+i/725aBOJkLHAT3LdKliwnybJKDqUDVR8CbLgBf6IcfhYnaLU7fTq0dw==",
+      "path": "flurl.http/4.0.0-pre3",
+      "hashPath": "flurl.http.4.0.0-pre3.nupkg.sha512"
+    },
+    "MathNet.Numerics/5.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-pg1W2VwaEQMAiTpGK840hZgzavnqjlCMTVSbtVCXVyT+7AX4mc1o89SPv4TBlAjhgCOo9c1Y+jZ5m3ti2YgGgA==",
+      "path": "mathnet.numerics/5.0.0",
+      "hashPath": "mathnet.numerics.5.0.0.nupkg.sha512"
+    },
+    "Matrixden.SAK.Extensions/3.3.2307.272": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-5tUmaaK3/uftzge8m/4yTewXsAlnXPOskDzI7irC0BYSxsTkEbrObFWaQ7JE2yNmWod1Aaua6N8iKYnjq3lVMQ==",
+      "path": "matrixden.sak.extensions/3.3.2307.272",
+      "hashPath": "matrixden.sak.extensions.3.3.2307.272.nupkg.sha512"
+    }
+  }
+}
